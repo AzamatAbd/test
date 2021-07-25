@@ -20,11 +20,31 @@ body {
     background-size: cover;
 }
 nav{
+    display: flex;
+    flex-direction: column;
     opacity:80%;
     position: fixed;
+    margin: 1%;
     width: 5%;
-    height: 100%;
+    height: 80%;
     justify-content: space-around;
+}
+.nav-list-item{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    font-size: ;
+}
+.nav-list-item img {
+    /* height: 40dp;
+    width: 40dp; */
+    display: inline-block;
+    color: #919191;
+    width: 100%;
+    height: 80px;           
+    line-height: 80px;     
+    overflow: hidden;
+    
 }
 .container1{
     margin: 5% 5% 5% 8%;
